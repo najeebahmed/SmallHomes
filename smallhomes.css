@@ -1,0 +1,472 @@
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+		background-image: url(paper_texture327.jpg);
+		background-size: auto;
+		background-repeat: no-repeat;
+    font-family: helvetica;
+    margin: auto auto;
+}
+
+header
+{
+    background-image: url(RusticSandstoneMasonry4895.jpg);
+    background-size: 100%;
+    padding: 5px 0;
+    text-align: center;
+		height: 140px;
+}
+
+header span
+{
+    margin-right: 15px;
+    background-color: #71AE8B;
+    padding: 5px 15px;
+    color: #003919;
+    box-shadow: 2px 2px 2px #003919;
+}
+
+nav
+{
+		margin: 15px auto 15px;
+    background-color: #191955;
+    box-shadow: 2px 2px 2px #003919;
+    width: 665px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 8px 16px;
+    border-left: 1px solid #7878AB;
+}
+
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 4px #000000;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+nav li
+{
+    float: left;
+}
+
+nav a:link
+{
+    color: #7878AB;
+}
+
+nav a:hover
+{
+    background-color: #313172;
+}
+
+nav a:visited
+{
+    color: #4E4E8C;
+}
+
+main
+{
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+    background-color: #7878AB;
+    min-height: 250px;
+    text-align: center;
+		overflow: hidden;
+    box-shadow: 4px 4px 8px #000000;
+		border-radius: 5px;
+}
+
+#subheading h3
+{
+    margin: auto 1%;
+    display: inline-block;
+    width: 30%;
+    background-color: #71AE8B;
+    padding: 5px;
+    box-shadow: 2px 2px 4px #000000;
+    border-radius: 5px;
+}
+
+h3
+{
+    padding-top: 15px;
+    margin: 0px;
+    color: #080838;
+}
+
+#mainheading
+{
+	color: #AF71A3;
+	margin: -15px -15px 35px;
+	background-color: rgba(57, 0, 46, .75);
+	font-size: 2em;
+	padding: 15px;
+	box-shadow: 4px 4px 8px #904581;
+}
+
+#mainimages img
+{
+    width: 32%;
+    padding: 25px 2px 25px 2px;
+}
+
+.textwrapper
+{
+    display: block;
+}
+
+.textwrapper input, textarea
+{
+    border-radius: 3px;
+}
+
+.buttonwrapper
+{
+    display: block;
+}
+
+input, textarea
+{
+	 margin-bottom: 20px;
+}
+
+.pricing
+{
+    border: 1px solid black;
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 20px 25px 0;
+    background-color: #71AE8B;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.pricing img
+{
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 250px;
+}
+
+.pricing h2
+{
+    color: #003919;
+}
+
+.pricing h3
+{
+    margin: 5px auto;
+    width: 250px;
+}
+
+.pricing:hover
+{
+    opacity: .5;
+    box-shadow: 8px 8px 16px black;
+}
+
+.pricing ul
+{
+    color: black;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 1.25em;
+    height: 220px;
+    width: 150px;
+}
+
+.pricing li
+{
+  padding-bottom: 5px;
+}
+
+footer
+{
+  	margin: auto;
+  	width: 30%;
+    background-image: url(Logomakr_3btR87.png);
+    background-position: bottom;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    height: 90px;
+    text-align: center;
+    font-size: 75%;
+    font-style: italic;
+		clear: both;
+}
+
+#gallery
+{
+	text-align: center;
+	margin: auto;
+}
+
+#gallery span
+{
+	display: none;
+}
+
+#gallery ul img
+{
+	width: 100px;
+	height: 100px;
+}
+
+#gallery li:hover span
+{
+	position: absolute;
+	margin-top: 25px;
+	display: block;
+}
+
+#gallery figure
+{
+	margin-top: 25px;
+	display: block;
+}
+
+#gallery ul
+{
+	list-style: none;
+}
+
+#gallery li
+{
+	display: inline;
+}
+
+#gallery span img
+{
+	width: 640px;
+	height: 640px;
+}
+
+.environment
+{
+  width: 90%;
+  background-repeat: no-repeat;
+  min-height: 400px;
+	margin: 0 0 15px;
+	padding: 0;
+	display: inline-block;
+	font-family: "Georgia";
+}
+
+.environment p
+{
+	margin: 15px 10%;
+	padding: 5px;
+}
+
+.naturecontainer
+{
+  display: inline-block;
+  width: 100%;
+}
+
+.pbig
+{
+	line-height: 1.8;
+}
+
+.psmall
+{
+	margin: 0 0 -1px;
+	font-size: .75em;
+	text-align: left;
+}
+
+#envdiv
+{
+	display: inline-block;
+	float: left;
+	margin: 0 .5%;
+	padding: 0;
+	width: 24%;
+	height: 550px;
+	text-align: center;
+	vertical-align: top;
+	overflow: hidden;
+	background-color: white;
+	box-shadow: 4px 4px 4px #904581;
+}
+
+#envdivimg
+{
+	width: 95%;
+	display: block;
+	vertical-align: top;
+	margin: 0 auto 35px;
+	padding: 2.5% 0;
+}
+
+#envdiv ul
+{
+	list-style-type: none;
+}
+
+#envdiv h3
+{
+	padding: 5px 10%;
+	margin: 0;
+	text-align: left;
+	font-size: 1.75em;
+	font-family: cursive;
+	text-align: center;
+}
+
+.environment h3
+{
+	padding: 0;
+	margin: 30px 0 0 15px;
+	text-align: left;
+	font-size: 1.75em;
+}
+
+.environment h4
+{
+	text-align: left;
+	font-size: 1.25em;
+	font-family: cursive;
+	margin: 2px 0 30px 15px;
+}
+
+#logo
+{
+  background-image: url(Logomakr_3btR87.png);
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+
+#options
+{
+  padding: 40px;
+  margin-left: auto;
+  text-align: left;
+}
+
+#options img
+{
+	float: right;
+	border-radius: 5px;
+	padding: 15px;
+	width: 480px;
+}
+
+@media only screen and (max-width: 64em) {
+	body
+	{
+			background-image: none;
+	}
+
+	#mainimages img
+	{
+	    width: 75%;
+	    padding: 5px;
+	}
+
+	#subheading h3
+	{
+			width: auto;
+	    display: block;
+	    background-color: #71AE8B;
+	    padding: 5px;
+	    box-shadow: 0 0 0;
+	    border-radius: 5px;
+			margin: 5px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 37.5em) {
+	body
+	{
+			background-image: none;
+	}
+
+	header
+	{
+		margin: 0;
+		height: auto;
+		padding: 0;
+	}
+
+	main
+	{
+		box-shadow: 0 0 0;
+		border-radius: 0;
+		padding: 0;
+		width: auto;
+		margin: auto;
+	}
+
+	nav
+	{
+	    width: auto;
+			text-align: center;
+	    box-shadow: 0 0 0;
+			margin: 4px auto;
+	}
+
+	nav a{
+	    padding: 8px 0;
+	    border-left: 0;
+			border-top: 1px solid black;
+	}
+
+	nav ul
+	{
+	    margin: 0;
+	    padding: 0;
+	    text-shadow: 0 0 0;
+	}
+
+	nav li
+	{
+	    float: none;
+	}
+
+	#mainheading
+	{
+		padding: 5px;
+		box-shadow: 0 0 0;
+	}
+
+	#mainimages img
+	{
+	    width: 75%;
+	    padding: 5px;
+	}
+
+	#subheading h3
+	{
+	    margin: 5px auto;
+	    display: block;
+	    width: 100%;
+	    background-color: #71AE8B;
+	    padding: 5px;
+	    box-shadow: 0 0 0;
+	    border-radius: 0;
+	}
+
+}
