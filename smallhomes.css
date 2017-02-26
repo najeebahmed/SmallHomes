@@ -32,7 +32,7 @@ header span
 
 nav
 {
-		margin: 15px auto 15px;
+    margin: 15px auto 15px;
     background-color: #191955;
     box-shadow: 2px 2px 2px #003919;
     width: 665px;
@@ -40,10 +40,12 @@ nav
 
 nav a{
     text-decoration: none;
-    font-weight: bold;
     display: block;
+    font-weight: bold;
     padding: 8px 16px;
     border-left: 1px solid #7878AB;
+    color: #7878AB;
+
 }
 
 nav ul
@@ -53,11 +55,13 @@ nav ul
     text-shadow: 2px 2px 4px #000000;
     overflow: hidden;
     list-style-type: none;
+    position: relative;
 }
 
 nav li
 {
     float: left;
+    postion: relative;
 }
 
 nav a:link
@@ -122,24 +126,51 @@ h3
     padding: 25px 2px 25px 2px;
 }
 
-.textwrapper
+.formfieldwrapper
 {
     display: block;
 }
 
-.textwrapper input, textarea
+.formfieldwrapper input, textarea
 {
     border-radius: 3px;
 }
 
-.buttonwrapper
+.formfieldwrapper checkbox
+{
+    margin: 3px;
+    padding: 15px
+}
+
+
+.formfieldwrapper, button
 {
     display: block;
 }
 
-input, textarea
+.formfieldwrapper input, textarea
 {
 	 margin-bottom: 20px;
+}
+
+#quote
+{
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: #71AE8B;
+    color: #003919;
+    text-decoration: none;
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+}
+
+#quote:hover
+{
+    opacity: .5;
+    box-shadow: 1px 1px 1px black;
 }
 
 .pricing
@@ -147,8 +178,7 @@ input, textarea
     border: 1px solid black;
     width: 300px;
     height: 600px;
-    background-color: white;
-    box-shadow: 1px 1px 2px black;
+    box-shadow: 2px 2px 2px black;
     border-radius: 5px;
     display: inline-block;
     margin: 20px 20px 25px 0;
@@ -180,7 +210,7 @@ input, textarea
 .pricing:hover
 {
     opacity: .5;
-    box-shadow: 8px 8px 16px black;
+    box-shadow: 1px 1px 1px black;
 }
 
 .pricing ul
@@ -210,18 +240,19 @@ footer
     text-align: center;
     font-size: 75%;
     font-style: italic;
-		clear: both;
+    clear: both;
 }
 
 #gallery
 {
-	text-align: center;
-	margin: auto;
+    display: block;
 }
 
 #gallery span
 {
-	display: none;
+    margin: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 
 #gallery ul img
@@ -232,38 +263,55 @@ footer
 
 #gallery li:hover span
 {
-	position: absolute;
-	margin-top: 25px;
-	display: block;
+    opacity: 1;
+}
+
+#gallery li:hover .gallerycontainer
+{
+    display: block;
 }
 
 #gallery figure
 {
 	margin-top: 25px;
-	display: block;
+    display: inline-block;
+}
+
+.gallerycontainer
+{
+    display: block;
+    margin: 25px 0;
+    padding: 0;
+    position: absolute;
+    width: 95%;
 }
 
 #gallery ul
 {
 	list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
 #gallery li
 {
 	display: inline;
+    padding: 0;
+    margin: 0;
 }
 
 #gallery span img
 {
-	width: 640px;
-	height: 640px;
+	width: 680px;
+	height: 420px;
 }
 
 .environment
 {
-  width: 90%;
-  background-repeat: no-repeat;
-  min-height: 400px;
+    width: 90%;
+    background-repeat: no-repeat;
+    min-height: 400px;
 	margin: 0 0 15px;
 	padding: 0;
 	display: inline-block;
