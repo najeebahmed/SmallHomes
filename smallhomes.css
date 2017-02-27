@@ -248,27 +248,14 @@ footer
     display: block;
 }
 
-#gallery span
+#gallery span img
 {
-    margin: auto;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
-
-#gallery ul img
-{
-	width: 100px;
 	height: 100px;
 }
 
-#gallery li:hover span
+span:hover + .gallerycontainer
 {
     opacity: 1;
-}
-
-#gallery li:hover .gallerycontainer
-{
-    display: block;
 }
 
 #gallery figure
@@ -284,6 +271,14 @@ footer
     padding: 0;
     position: absolute;
     width: 95%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.gallerycontainer img
+{
+    width: 680px;
+    height: 420px;
 }
 
 #gallery ul
@@ -299,12 +294,6 @@ footer
 	display: inline;
     padding: 0;
     margin: 0;
-}
-
-#gallery span img
-{
-	width: 680px;
-	height: 420px;
 }
 
 .environment
